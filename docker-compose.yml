@@ -1,0 +1,10 @@
+name: "docusaurus"
+services:
+    serve:
+        build:
+            context: .
+            target: serve
+        ports:
+            - "3002:3002"
+        environment:
+            - NODE_ENV=production
