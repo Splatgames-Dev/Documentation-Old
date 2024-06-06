@@ -44,14 +44,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/splatgames-dev/Documentation/',
+            'https://github.com/Splatgames-Dev/Documentation/blob/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/splatgames-dev/Documentation/',
+            'https://github.com/Splatgames-Dev/Documentation/blob/main/',
         },
         theme: {
           customCss: './src/css/custom.css',
@@ -119,8 +119,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Offizielle Website',
+                to: 'https://splatgames.de',
               },
               {
                 label: 'GitHub',
